@@ -11,3 +11,8 @@ if (true) {
     console.log('hi');
 }
 console.log(hi);
+
+app.get('/', function(req, res){
+    
+    res.send("Hello world");
+});
