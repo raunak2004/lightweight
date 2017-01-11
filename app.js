@@ -4,14 +4,13 @@ var hi = 'hello'
 var app = express();
 app.use(express.static('public'));
 
-app.listen(3000, function(err){
+app.listen(8080, function(err){
 	console.log('server started ' + err);	
 });
 
 if (true) {
     console.log('hi');
 }
-console.log(hi);
 
 app.get('/', function(req, res){
     
